@@ -1,9 +1,39 @@
-<h1>{{pageHeader.header}}</h1>
-
-<h3>
-     {{pageHeader.message}} <span class="glyphicon glyphicon-heart"></span>
-</h3>   
-
-<div class="things-we-love" ng-repeat="item in pageItems | filter:{page:'page/2'}">
-    <a href="{{item.urltext}}">{{item.name}}</a>  
+<img class="gears-img"
+     src="../static/assets/gears.png">
+<h1>Developer Dashboard</h1>
+<h3>Helping visualize the processing results.</h3>
+<!-- TODO: Change out static data -->
+<div class="container">
+  <h2>Processing Errors</h2>
+  <div class="table-responsive">
+    <table class="raw-data-table table-striped table">
+      <thead>
+        <tr>
+          <th class="col-md-2"><h3 class="table-head">Date</h3></th>
+          <th class="col-md-2"><h3 class="table-head">Error Code</h3></th>
+          <th class="col-md-2"><h3 class="table-head">Severity</h3></th>
+          <th class="col-md-2"><h3 class="table-head">Occurence</h3></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>11-01-2017</td>
+          <td>E-101</td>
+          <td>High</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>11-02-2017</td>
+          <td>E-208</td>
+          <td>Low</td>
+          <td>1</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="row">
+    <h2>Error Analytics</h2>
+      <div class="col-xs-12 graphical-data"></div>
+  </div>
+  </div>
 </div>

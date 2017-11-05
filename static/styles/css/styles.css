@@ -120,3 +120,29 @@ p.button {
   width: 90%;
   height: 28px;
 }
+
+/* Dev Dashboard */
+img.gears-img.ng-scope {
+  float: left;
+  height: 100px;
+  width: 100px;
+  margin-right: 20px;
+}
+
+.error-data {
+  padding-top: 30px;
+}
+
+.table-head {
+  font-weight: 600;
+  color: #d86a2f;
+}
+
+td {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+.table>tbody>tr>td {
+  padding-left: 20px;
+}
