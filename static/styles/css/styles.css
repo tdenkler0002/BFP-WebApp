@@ -1,0 +1,122 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  background-color: #FFF; }
+  body padding {
+    top: 40px;
+    bottom: 40px; }
+  body .navbar-inverse {
+    background-color: #222;
+    border-color: black; }
+  body .container.view-container {
+    margin-top: 50px; }
+    body .container.view-container a {
+      text-decoration: none; }
+    body .container.view-container .contact-info, body .container.view-container .things-we-love {
+      font-size: 1.2em;
+      font-weight: bold; }
+    body .container.view-container .things-we-love a {
+      display: block;
+      padding: 5px 0 5px 0;
+      text-decoration: none; }
+    body .container.view-container .glyphicon.glyphicon-heart {
+      color: #bc4747; }
+    body .container.view-container .jumbotron {
+      color: #000;
+      background-color: #EEEEEE;
+      margin-top: 20px;
+    }
+    body .container.view-container .jumbotron h1 {
+      color: #233f6d;
+    }
+
+    h1, h2 {
+      font-family: 'Arbutus Slab', serif;
+      color: #355891;
+    }
+
+    p, h3, label {
+      font-family: 'Josefin Slab', serif;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+/* Signin page */
+/* Styling extracted from http://getbootstrap.com/examples/signin/ */
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto; }
+  .form-signin input[type="email"] {
+    margin-bottom: -1px; }
+    .form-signin input[type="email"] border-top {
+      left-radius: 0;
+      right-radius: 0; }
+  .form-signin input[type="password"] {
+    margin-bottom: 10px; }
+    .form-signin input[type="password"] border-top {
+      left-radius: 0;
+      right-radius: 0; }
+  .form-signin .form-signin-heading {
+    margin-bottom: 10px; }
+  .form-signin .checkbox {
+    @extends .form-signin-heading;
+    font-weight: normal; }
+  .form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px; }
+    .form-signin .form-control:focus {
+      z-index: 2; }
+
+/* HomePage */
+.bfp-gears {
+  width: 200px;
+  height: 200px;
+  float: left;
+  padding-right: 20px;
+}
+
+.jumbotron.ng-scope {
+  padding: 20px;
+}
+
+.file-submission-icon {
+  margin: 0 auto;
+  display: block;
+  width: 80px;
+  height: 80px;
+}
+
+h2 {
+  text-align: center;
+}
+
+p.file-format {
+  font-weight: 600;
+  color: #30c3e8;
+  text-align: center;
+}
+
+a.btn.btn-lg.btn-default {
+  background-color: #4680dd;
+  color: #fff;
+  border: 0;
+}
+
+p.button {
+  text-align: center;
+}
+
+.select-container {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  height: 28px;
+}
