@@ -24,7 +24,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'rest_framework',
     'main',
-    'djangobower',
+    # 'djangobower',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -116,23 +116,17 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 
-STATICFILES_FINDERS = (
-    'djangobower.finders.BowerFinder',
-)
-
 FIXTURE_DIRS = (
     os.path.join(BASE_DIR, 'fixtures'),
 )
 
-BOWER_COMPONENTS_ROOT = os.path.join(BASE_DIR, 'components')
-BOWER_PATH = '/usr/local/bin/bower'
-
-BOWER_INSTALLED_APPS = (
-     'd3#3.3.13',
-     'nvd3#1.7.1',
-)
-
-
+# BOWER_COMPONENTS_ROOT = os.path.join(BASE_DIR, 'components')
+# BOWER_PATH = '/usr/local/bin/bower'
+#
+# BOWER_INSTALLED_APPS = (
+#      'd3#3.3.13',
+#      'nvd3#1.7.1',
+# )
 
 REST_FRAMEWORK = {
     # Use Django's standard 'django.contrib.auth' permissions,
